@@ -135,7 +135,7 @@ footer{
     }
     aside>div{
         flex-basis: 200px;
- 
+        flex-grow: 1;
     }
     footer{
         width: 100vw;

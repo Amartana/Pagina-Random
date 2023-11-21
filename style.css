@@ -1,3 +1,9 @@
+
+:root{
+    --background: black;
+    --color1: #2A428B;
+    --color2: rgb(226 51 143);
+}    
 *{
     box-sizing: border-box;
     margin: 0px;
@@ -14,9 +20,10 @@ body{
 header{
     display: flex;
     align-items: center;
-    height: 100px;
+    height: 70px;
     width: 100vw;
-    background-color: #D2D0F1;
+    background-color: black;
+    border-bottom: 1px solid #feedff;
 }
 nav{
     position: absolute;
@@ -25,12 +32,12 @@ nav{
 .logo{
     display: flex;
     align-items: center;
-    height: 15vh;
+    height: 70px;
     padding: 10px;
     font-family: 'agbalumo';
     font-size: 2rem;
-    color:#2A428B;
-    text-shadow: 1px 1px 3px rgb(226 51 143);
+    color: #fef156;
+    text-shadow: 2px 2px 2px rgb(226 51 143);
 }
 img{
     height: 90%;
@@ -42,23 +49,23 @@ img{
 .main-nav__item{
     margin: 5px;
     border-radius: 30px;
-    border: 1px solid #2a428b;
-    box-shadow: 1px 1px 3px 1px #ef8089;
-    padding: 10px;
-    background-color: beige;
+    border: 1px solid rgb(226 51 143);
+    box-shadow: 1px 1px 3px 1px #fef156;
+    padding: 7px;
+    background-color: #2a428b;
     display: inline;
     list-style: none;
     font-size: 1.2rem;
 }
 a{
-    color: #2A428B;
+    color: #feedff;
     text-decoration: none;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 
 .contenidos{
-    background-color: #EF8089;
+    background-color: black;
     width: 25%;
     min-width: 170px;
     display: flex;
@@ -69,7 +76,8 @@ a{
 }
 
 aside>div{
-    background-color: #CDAECF;
+    background-color: rgb(255 60 98);
+    border: 1px solid rgb(255, 240, 27);
     vertical-align: middle;
     padding: 20px;
     width: 88%;
@@ -79,23 +87,24 @@ aside>div{
     cursor: pointer;
 }
 aside p{
-    color: #532661;
+    color: var(--color1);
     display: inline;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 main{
-    background-color: #787589;
+    background-color: var(--background);
     width: 75%;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     padding: 20px
 }
 main p {
     text-align: justify;
-    color: azure;
+    color: rgb(255, 240, 27);
 }
 
 footer{
-    background-color: rgb(255, 240, 27);
+    background-color: #2a428b;
+    color: #feedec;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 100%;
     display: flex;
